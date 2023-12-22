@@ -1,0 +1,28 @@
+{
+  "name": "domain-optimizer",
+  "version": "1.0.0",
+  "description": "A project to optimize domain prices",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/domain-optimizer.git"
+  },
+  "keywords": [
+    "domain",
+    "optimizer",
+    "web"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yourusername/domain-optimizer/issues"
+  },
+  "homepage": "https://github.com/yourusername/domain-optimizer#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}

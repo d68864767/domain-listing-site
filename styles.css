@@ -1,0 +1,67 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+#domain-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.domain-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.domain-item h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.domain-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+.domain-item .price {
+    color: #333;
+    font-weight: bold;
+}
+
+.domain-item .offer {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.domain-item .offer:hover {
+    background-color: #45a049;
+}
